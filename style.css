@@ -891,7 +891,7 @@ img{
     }
 
     .heading1{
-        font-size: 24px;
+        font-size: 24px !important; 
     }
 
     .hs3-heading1{
