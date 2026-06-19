@@ -180,10 +180,7 @@ a{
 ul{
     color: #d7dadc;
 }
-.list-items{
-    text-align: start;
-    margin-left: 20px;
-}
+
 .last-heading2{
     text-align: center;
 }
@@ -355,7 +352,7 @@ ul{
 .list-items{
     color: white !important;
     text-decoration: none;
-    text-align: center !important;
+    text-align: start !important;
 }
 .list-items:hover{
     text-decoration: underline blue  !important;
@@ -421,7 +418,7 @@ body{
     }
 
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
     .footer .d-flex{
         flex-direction: column;
@@ -446,7 +443,7 @@ body{
         font-size: 26px;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
   
     .heading1{
@@ -572,7 +569,7 @@ body{
 
     .list-items{
         margin-left: 0;
-        text-align: center !important;
+        text-align:start !important;
     }
 }
 
@@ -612,7 +609,7 @@ img{
         padding: 5px 0;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 }
 
@@ -628,7 +625,7 @@ img{
         font-size: 28px;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 }
 
@@ -638,7 +635,7 @@ img{
         font-size: 22px;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 }
 
@@ -655,7 +652,7 @@ img{
         text-align: center;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 }
 
@@ -669,7 +666,7 @@ img{
         font-size: 14px;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 }
 
@@ -685,7 +682,7 @@ img{
 @media (max-width:991px){
 
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
     .table{
         min-width: 900px;
@@ -705,7 +702,7 @@ img{
 
 @media (max-width:576px){
       .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .table{
@@ -727,7 +724,7 @@ img{
     }
 
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
     .starting-btn{
         width: 100%;
@@ -754,7 +751,7 @@ img{
     }
 
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
     .contact-texts{
         text-align: center;
@@ -771,7 +768,7 @@ img{
         padding: 20px !important;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .contact-info-heading{
@@ -791,7 +788,7 @@ img{
         margin-bottom: 20px;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .box3-heading{
@@ -805,7 +802,7 @@ img{
 
 @media (max-width:768px){
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .box4-btn2{
@@ -815,7 +812,7 @@ img{
 
 @media (max-width:576px){
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .box4-btn2{
@@ -835,7 +832,7 @@ img{
         margin-left: 0;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
     }
 
     .footer .d-flex{
@@ -863,7 +860,7 @@ img{
 
     .list-items{
         margin-left: 0;
-        text-align: center !important;
+        text-align: start !important;
         list-style: none;
     }
 
@@ -887,7 +884,8 @@ img{
         padding: 20px !important;
     }
     .list-items{
-        text-align: center !important;
+        text-align: start !important;
+        justify-content: start !important;
     }
 
     .heading1{
