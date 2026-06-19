@@ -355,6 +355,7 @@ ul{
 .list-items{
     color: white !important;
     text-decoration: none;
+    text-align: center !important;
 }
 .list-items:hover{
     text-decoration: underline blue  !important;
@@ -419,7 +420,9 @@ body{
         font-size: 16px;
     }
 
-    /* Footer */
+    .list-items{
+        text-align: center !important;
+    }
     .footer .d-flex{
         flex-direction: column;
         text-align: center;
@@ -442,7 +445,9 @@ body{
     .image-text{
         font-size: 26px;
     }
-
+    .list-items{
+        text-align: center !important;
+    }
   
     .heading1{
         font-size: 24px;
@@ -567,7 +572,7 @@ body{
 
     .list-items{
         margin-left: 0;
-        text-align: center;
+        text-align: center !important;
     }
 }
 
@@ -606,6 +611,9 @@ img{
     .nav-item{
         padding: 5px 0;
     }
+    .list-items{
+        text-align: center !important;
+    }
 }
 
 
@@ -619,12 +627,18 @@ img{
     .image-text{
         font-size: 28px;
     }
+    .list-items{
+        text-align: center !important;
+    }
 }
 
 @media (max-width:576px){
 
     .image-text{
         font-size: 22px;
+    }
+    .list-items{
+        text-align: center !important;
     }
 }
 
@@ -640,6 +654,9 @@ img{
     .box2-para{
         text-align: center;
     }
+    .list-items{
+        text-align: center !important;
+    }
 }
 
 @media (max-width:576px){
@@ -650,6 +667,9 @@ img{
 
     .box2-para{
         font-size: 14px;
+    }
+    .list-items{
+        text-align: center !important;
     }
 }
 
@@ -664,6 +684,9 @@ img{
 
 @media (max-width:991px){
 
+    .list-items{
+        text-align: center !important;
+    }
     .table{
         min-width: 900px;
     }
@@ -681,6 +704,9 @@ img{
 }
 
 @media (max-width:576px){
+      .list-items{
+        text-align: center !important;
+    }
 
     .table{
         min-width: 1000px;
@@ -700,6 +726,9 @@ img{
         width: 100%;
     }
 
+    .list-items{
+        text-align: center !important;
+    }
     .starting-btn{
         width: 100%;
         max-width: 280px;
@@ -724,6 +753,9 @@ img{
         text-align: center;
     }
 
+    .list-items{
+        text-align: center !important;
+    }
     .contact-texts{
         text-align: center;
     }
@@ -737,6 +769,9 @@ img{
 
     .contact-section2{
         padding: 20px !important;
+    }
+    .list-items{
+        text-align: center !important;
     }
 
     .contact-info-heading{
@@ -755,6 +790,9 @@ img{
     .whitebox2{
         margin-bottom: 20px;
     }
+    .list-items{
+        text-align: center !important;
+    }
 
     .box3-heading{
         font-size: 28px;
@@ -766,6 +804,9 @@ img{
 }
 
 @media (max-width:768px){
+    .list-items{
+        text-align: center !important;
+    }
 
     .box4-btn2{
         width: 60%;
@@ -773,6 +814,9 @@ img{
 }
 
 @media (max-width:576px){
+    .list-items{
+        text-align: center !important;
+    }
 
     .box4-btn2{
         width: 100%;
@@ -789,6 +833,9 @@ img{
 
     .footer{
         margin-left: 0;
+    }
+    .list-items{
+        text-align: center !important;
     }
 
     .footer .d-flex{
@@ -816,7 +863,7 @@ img{
 
     .list-items{
         margin-left: 0;
-        text-align: center;
+        text-align: center !important;
         list-style: none;
     }
 
@@ -838,6 +885,9 @@ img{
     .contact-section2,
     .section3{
         padding: 20px !important;
+    }
+    .list-items{
+        text-align: center !important;
     }
 
     .heading1{
